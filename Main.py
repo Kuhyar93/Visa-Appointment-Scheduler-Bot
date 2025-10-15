@@ -14,8 +14,8 @@ import gc
 import os
 
 
-TELEGRAM_BOT_TOKEN = "7591468809:AAHkWuoBdcYNxjS7mHYzinoCGuNlm6LmfDY"
-CHAT_ID = "55282555"
+TELEGRAM_BOT_TOKEN = ""
+CHAT_ID = ""
 
 driver = webdriver.Chrome()
 
@@ -277,3 +277,4 @@ driver.quit()
 #     next_button = driver.find_element(By.XPATH, "/html/body/div[5]/div[2]/div/a/span")
 #     next_button.click()
 #     time.sleep(2)
+
